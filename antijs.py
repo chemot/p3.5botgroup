@@ -10,37 +10,37 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import youtube_dl
 
-cl = LineClient(authToken='EudBnx7OTczHol5QyWeb.0PzLwS72Fl1EGGJMnIN3IW.Qvu8QiQt7pnfeJN4gY0zkDs50nCO1N+aG/x7WKMXses=')
+cl = LineClient(authToken='Evk0vbesqNrRvYT2Dvwf.eb8Fsy+dW4odT30yu3UjtW.z37pJAcVjFja/uZLIHXbcE6UirxQgWKkH8mzWMOZhYQ=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='EuEmqr5CG0kRTaWFu8u3.ceM9NaolFHDUaV2+G8nZyW.UrACa12j9/xLgpIEcaMcaucuYOBpCaIR7X5rPPmrl84=')
+ki = LineClient(authToken='EvOLom31siCpLiCevS97.rYQ2taYWmIaHwZoX6iKQ1W.cUdlpHOCsa1foCEy2gWpUTixawEI1nEX8kPhD/6BIoM=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken='EuI2Plp0ANcqOQhsYYD7.L9FHe7uzKTCG1RQIn1TiTW.TY44ZVhARfswdpDGJm8slUEHNJTX+4EP9jcrHfL0wzY=')
+kk = LineClient(authToken='EvABee2kPEFI6lIzoF46.BaiKNxR2VN7zWCBrQS6P5G.9sPzF5y/oFRSubYAdObDHbNgkBxys/PxYEMInq75ZhU=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='EuX9KX2wLKNalVdGaZS7.zHaODuDXU8bfbqzFy+szXW.ZiWB0anJ0rWRbCi2ZdxCFW3Nryk9T3nD9mNf9ovFtZo=')
+kc = LineClient(authToken='EvVGEzt3C0nkr0RpHoea.UHbbg4pHBjT5VwCYtXmXsG.kcJ7VbYwvFOjWeXtsVd3VaQ5LrjD5Z4L1a6l8ptMo6M=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-sw = LineClient(authToken='EujrOmXVTQt2dx7p6bS7.bWJKbDdrkKVEodATWyP5nW.nN7hTVNi8alVProqheUF2wFfuAlOxsmATznqVSbRVUw=')
+sw = LineClient(authToken='EvpdTH4ojH5CTfVxIyWa.Oyj1ZAWaMt3CKaVDd5BW2G.WK7xpbI8hV2rZJfbmFzezLlrW1AZ/1yK7lVBkx/B7nM=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
 
 poll = LinePoll(cl)
 call = LineCall(cl)
-creator = ["ud296655acef67cbd5e8208e63629f78b"]
-owner = ["ud296655acef67cbd5e8208e63629f78b"]
-admin = ["ud296655acef67cbd5e8208e63629f78b"]
-staff = ["ud296655acef67cbd5e8208e63629f78b"]
+creator = ["u9f09cfcb17d037e2936b751bd9d40ead"]
+owner = ["u9f09cfcb17d037e2936b751bd9d40ead"]
+admin = ["u9f09cfcb17d037e2936b751bd9d40ead"]
+staff = ["u9f09cfcb17d037e2936b751bd9d40ead"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -122,10 +122,10 @@ wait = {
     "sticker":False,
     "selfbot":True,
     "mention":"NGINTIPPP!!!",
-    "Respontag":"SEKARANG TAG BESOK JATUH CINTA",
+    "Respontag":"Oit",
     "welcome":"Selamat datang & betah",
-    "comment":"Like like & like by ARIFISTIFIK",
-    "message":"Terimakasih sudah add saya 😃\n☆| ARIFISTIFIK |☆\n\nOpen Tikungan:\n┃🇮🇩┃ 1 hari 1000c\n┃🇮🇩┃ 1 minggu 2 juta 😁\n\nMinat?\nChat aja...",
+    "comment":"Like like & like by sepriche",
+    "message":"Terimakasih sudah add saya 😃\n☆| sepriche |☆\n\nOpen Tikungan:\n┃😂┃ 1 hari 1000c\n┃😂┃ 1 minggu 2 juta 😁\n\nMinat?\nChat aja...",
     }
 
 read = {
@@ -293,7 +293,7 @@ def command(text):
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "╭━━━━━━━━━━━━━━━╮\n┣🇮🇩🌟🔵ARIFISTIFIK🔵🌟\n╰━━━━━━━━━━━━━━━╯\n──┅━✥ ======= ✥━┅──\n┃🇮🇩┃ ┃DPK┃ MENU ┃🇮🇩┃\n──┅━✥ ======= ✥━┅──\n╭━━━━━━━━━━━━━━━╮\n" + \
+    helpMessage = "╭━━━━━━━━━━━━━━━╮\n┣🇮🇩🌟🔵SEPRIBOT🔵🌟\n╰━━━━━━━━━━━━━━━╯\n──┅━✥ ======= ✥━┅──\n┃🇮🇩┃ ┃DPK┃ MENU ┃🇮🇩┃\n──┅━✥ ======= ✥━┅──\n╭━━━━━━━━━━━━━━━╮\n" + \
                   "┃🇮🇩┃ " + key + "Me\n" + \
                   "┃🇮🇩┃ " + key + "Mid「@」\n" + \
                   "┃🇮🇩┃ " + key + "Info「@」\n" + \
@@ -417,7 +417,7 @@ def helpbot():
                   "┃🇮🇩┃ " + key + "Bot3up「Kirim fotonya」\n" + \
                   "┃🇮🇩┃ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
                   "┃🇮🇩┃ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
-                  "╰━━━━━━━━━━━━━━━╯\n──┅━✥ ======= ✥━┅──\n┃🇮🇩┃ ┃DPK┃ FAMS┃🇮🇩┃\n──┅━✥ ======= ✥━┅──\n╭━━━━━━━━━━━━━━━╮\n┣🇮🇩━⏩ARIFISTIFIK🇮🇩━⏩\n╰━━━━━━━━━━━━━━━╯\n"
+                  "╰━━━━━━━━━━━━━━━╯\n──┅━✥ ======= ✥━┅──\n┃🇮🇩┃ ┃DPK┃ FAMS┃🇮🇩┃\n──┅━✥ ======= ✥━┅──\n╭━━━━━━━━━━━━━━━╮\n┣🇮🇩━⏩SEPRIBOT🇮🇩━⏩\n╰━━━━━━━━━━━━━━━╯\n"
     return helpMessage1
 
 def bot(op):
