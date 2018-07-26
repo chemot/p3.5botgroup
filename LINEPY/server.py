@@ -25,12 +25,12 @@ class LineServer(object):
         'LINE_MUSIC': '1381425814'
     }
 
-    USER_AGENT  = 'Line/5.5.1.1.587'
-    APP_TYPE    = ApplicationType._VALUES_TO_NAMES[368]
+    USER_AGENT  = 'Line/1.4.17'
+    APP_TYPE    = "CHROMEOS\t1.4.17\tChrome_OS\t1"
     APP_NAME    = "CHROMEOS\t1.4.17\tChrome_OS\t1"
-    PHONE_TYPE  = ApplicationType.IOS
-    PHONE_NAME  = 'IOS\t7.14.0\tiPhone OS\t10.12.0'
-    CARRIER     = '51089, 1-0'
+    PHONE_TYPE  = "CHROMEOS\t1.4.17\tChrome_OS\t1"
+    PHONE_NAME  = 'CHROMEOS'
+    CARRIER     = '1.4.17'
     SYSTEM_NAME = 'ARIFISTIFIK'
     IP_ADDR     = '8.8.8.8'
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
